@@ -29,8 +29,8 @@ class PrintEvenNumbers{
 		for(int i = 0; i < a.length;i++){
 			
 			
-		if(i % 2 == 1)
-			System.out.println(a[i]);
+		if(a[i] % 2 == 0)
+		System.out.println(a[i]);
 			
 		}
 		
